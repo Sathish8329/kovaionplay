@@ -27,7 +27,7 @@ spec:
         eks.amazonaws.com/nodegroup: stage-private
       containers:
       - name: frontend
-        image: sathish8329/kovaionplaystage:2167
+        image: sathish8329/kovaionplaystage:2178
         ports:
         - containerPort: 8081  # Ensure the container is exposed on port 8001
 ---
